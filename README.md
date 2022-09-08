@@ -13,7 +13,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/đɇep-patel-164271218" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/đɇep-patel-164271218" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/đɇep-patel-164271218" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/đɇep-patel-164271218" height="30" width="40" /></a>
 <a href="https://instagram.com/__deep__25__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="__deep__25__" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/deep2553" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="deep2553" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/deep2505" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="deep2505" height="30" width="40" /></a>
