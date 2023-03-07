@@ -32,7 +32,9 @@ I am a Backend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGB
 
 - :zap: In my free time, I solve problems on Leetcode and Codestudio and Learn some new technologies.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)]https://www.linkedin.com/in/deep-patel-164271218/
+- :mailbox:How to reach me: <a href="https://www.linkedin.com/in/deep-patel-164271218/">
+      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+    </a>
 
 ---
 
