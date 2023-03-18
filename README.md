@@ -19,13 +19,15 @@
 </div>
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmQyODQ2MjkxMzExN2VhOTk5NGViNzkwMWMwNzRjYTQzZjQ1ZTUwZiZjdD1n/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+
   
   ---
 
 ### :man_technologist: About Me :
 
 I am a Backend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
-
+</div>
+ 
 - :telescope: I’m finishing my studies in B.E. of Computer Engineering at Government Engineering College, Rajkot
 
 - :seedling: Exploring Technical Content Writing.
