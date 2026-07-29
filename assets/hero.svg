@@ -1,0 +1,49 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B18"/>
+      <stop offset="0.52" stop-color="#111B3C"/>
+      <stop offset="1" stop-color="#071827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="90" x2="990" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#C084FC"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-100 0;100 0;-100 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#93C5FD" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="110" cy="68" r="120" fill="#22D3EE" opacity=".08">
+    <animate attributeName="r" values="100;135;100" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1080" cy="300" r="150" fill="#8B5CF6" opacity=".09">
+    <animate attributeName="r" values="150;115;150" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity=".8" filter="url(#glow)">
+    <circle cx="160" cy="270" r="4" fill="#22D3EE"><animate attributeName="cy" values="290;70;290" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="80" r="3" fill="#C084FC"><animate attributeName="cy" values="70;285;70" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="290" r="3" fill="#818CF8"><animate attributeName="cx" values="900;1080;900" dur="6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" text-anchor="middle">
+    <text x="600" y="108" fill="#94A3B8" font-size="17" letter-spacing="7">HELLO, WORLD — I'M</text>
+    <text x="600" y="190" fill="url(#accent)" font-size="66" font-weight="800" letter-spacing="2">DEEP PATEL</text>
+    <rect x="280" y="222" width="640" height="2" rx="1" fill="url(#accent)" opacity=".8">
+      <animate attributeName="width" values="0;640;640;0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="266" fill="#E2E8F0" font-size="21">Full-Stack Developer  •  Problem Solver  •  Lifelong Learner</text>
+    <text x="600" y="310" fill="#64748B" font-size="15">building thoughtful software, one commit at a time</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="url(#accent)" stroke-opacity=".35" stroke-width="2"/>
+</svg>

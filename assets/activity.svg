@@ -1,0 +1,46 @@
+<svg width="1000" height="210" viewBox="0 0 1000 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset=".5" stop-color="#111936"/>
+      <stop offset="1" stop-color="#071827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="75" y1="0" x2="925" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#panel)" stroke="#334155" stroke-width="2"/>
+  <text x="500" y="42" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="middle" letter-spacing="5">DEVELOPMENT ACTIVITY</text>
+
+  <path d="M75 112H925" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+  <path d="M75 112H925" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="160 690">
+    <animate attributeName="stroke-dashoffset" values="850;0" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" text-anchor="middle">
+    <circle cx="170" cy="112" r="8" fill="#22D3EE" filter="url(#glow)"><animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="170" y="86" fill="#E2E8F0">CODE</text>
+    <text x="170" y="153" fill="#64748B" font-size="12">create</text>
+
+    <circle cx="390" cy="112" r="8" fill="#38BDF8" filter="url(#glow)"><animate attributeName="r" values="7;11;7" dur="2.4s" begin=".6s" repeatCount="indefinite"/></circle>
+    <text x="390" y="86" fill="#E2E8F0">TEST</text>
+    <text x="390" y="153" fill="#64748B" font-size="12">refine</text>
+
+    <circle cx="610" cy="112" r="8" fill="#818CF8" filter="url(#glow)"><animate attributeName="r" values="7;11;7" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <text x="610" y="86" fill="#E2E8F0">LEARN</text>
+    <text x="610" y="153" fill="#64748B" font-size="12">improve</text>
+
+    <circle cx="830" cy="112" r="8" fill="#C084FC" filter="url(#glow)"><animate attributeName="r" values="7;11;7" dur="2.4s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <text x="830" y="86" fill="#E2E8F0">SHIP</text>
+    <text x="830" y="153" fill="#64748B" font-size="12">deliver</text>
+  </g>
+
+  <text x="500" y="190" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" text-anchor="middle">consistent progress • meaningful software</text>
+</svg>
